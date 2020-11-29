@@ -93,6 +93,7 @@ class InfoScore extends StatelessWidget {
 
 class CustomInfoScoreMarker extends CustomClipper<Path> {
   final bool isShowLeft;
+
   CustomInfoScoreMarker({this.isShowLeft});
 
   @override
