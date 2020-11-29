@@ -26,12 +26,8 @@ class ActionChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: monthData.value != null
-          ? () {
-              updateItemActive(monthData);
-            }
-          : null,
-      child: Container(
+      onTap: monthData.value != null ? () => updateItemActive(monthData) : null,
+      child: SizedBox(
         width: itemPositionSize,
         height: itemPositionSize,
         child: Center(
