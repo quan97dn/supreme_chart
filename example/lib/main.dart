@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: MonthLineChart(
+        body: MonthlyLineChart(
           levelAmplitude: [20, 30, 10, 50, 70, 80],
           activeMonth: 3,
         ),

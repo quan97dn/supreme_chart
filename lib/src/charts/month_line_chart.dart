@@ -19,7 +19,7 @@ enum MonthEnum {
   yearling,
 }
 
-class MonthLineChart extends StatefulWidget {
+class MonthlyLineChart extends StatefulWidget {
   final MonthEnum typeMonth;
   final double maxAmplitude;
   final List<int> levelAmplitude;
@@ -45,7 +45,7 @@ class MonthLineChart extends StatefulWidget {
   final Color colorLineVerticalMeasure;
   final Color colorBoderIndicatorMeasure;
 
-  MonthLineChart({
+  MonthlyLineChart({
     this.typeMonth = MonthEnum.yearling,
     this.maxAmplitude = 100,
     @required this.levelAmplitude,
@@ -76,10 +76,10 @@ class MonthLineChart extends StatefulWidget {
   });
 
   @override
-  _MonthLineChartState createState() => _MonthLineChartState();
+  _MonthlyLineChartState createState() => _MonthlyLineChartState();
 }
 
-class _MonthLineChartState extends State<MonthLineChart> {
+class _MonthlyLineChartState extends State<MonthlyLineChart> {
   List<LineChart> _months = [];
   LineChart _monthActive;
   double _chartWidth;
