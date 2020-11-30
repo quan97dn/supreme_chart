@@ -2,7 +2,9 @@ name: supreme_chart
 description: A new flutter plugin project.
 version: 0.0.1
 author:
+  - quan105dn@gmail.com
 homepage:
+  - https://github.com/quan97dn/supreme_chart
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
